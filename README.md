@@ -6,10 +6,13 @@ This repository contains a comprehensive framework for **predictive maintenance 
 
 By analyzing the acoustic signatures of DC motors, this system can identify:
 - Motor bearing degradation
-- Shaft misalignment
+- Propeller faults
 - Winding faults
 - Performance anomalies
 - Optimal maintenance scheduling
+
+  The dataset is obtained from Kaggle:
+  https://www.kaggle.com/datasets/amirberenji/brushless-dc-motor-sound-dataset-for-pdm/data
 
 ## 🎯 Key Features
 
@@ -31,8 +34,7 @@ DC-motor-sound-analysis-and-Predictive-maintenance/
 ├── Dataset/                         # Motor sound recordings and labels
 │   ├── normal_operation/            # Healthy motor acoustic data
 │   ├── bearing_fault/               # Bearing damage recordings
-│   ├── alignment_issue/             # Misalignment fault data
-│   └── winding_fault/               # Electrical winding fault data
+│   ├── Propeller_fault/             # Misalignment fault data
 ├── Images/                          # Visualizations and results
 └── README.md                        # This file
 ```
@@ -113,8 +115,7 @@ Open `BLDC_Deep_NN.ipynb` to:
 |---|---|
 | **Normal Operation** | Healthy motor baseline |
 | **Bearing Fault** | Degradation, friction noise |
-| **Shaft Misalignment** | Structural misalignment |
-| **Winding Fault** | Electrical winding issues |
+| **Propeller Fault** | Structural misalignment |
 
 ## 💡 Key Insights
 
